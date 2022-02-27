@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "DeepReader": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "hotReloadEnabled": false,
+      "dotnetRunMessages": true
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
