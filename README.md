@@ -3,9 +3,10 @@ High-performance streaming- and history-solution for EOSIO-based chains leveragi
 
 #### WORK IN PROGRESS
 The project contained is not fully working yet
- - [x] Deserializationa and re-construction of blocks 
+ - [x] Deserialization and re-construction of blocks, transactions, actions, etc.
  - [x] Postprocessing
- - [x] Data-Storage using Microsoft Faster 
+ - [x] Data-Storage using Microsoft Faster
+ - [x] Custom Action- serialization/deserialization using persistant runtime abi-assembly-generation
 
 ## Description
 Deepreader reads and deserializes deep-mind logs (actions, traces, deltas, permission-operations, limit-ops etc.) and re-constructs eosio-blocks similar to dfuse.
@@ -20,6 +21,8 @@ Currently planned storage-backends are
  - Elasticsearch (https://github.com/elastic/elasticsearch-net) (while storing highly compressed data while indexing full objects to reduce storage-consumption)
 
 to offer powerful ingestion layers and query-capabilites for the stored data.
+
+DeepReader uses a custom action-serializer which uses Runtime-generated but persisted Assemblies instead of ABI-files to increase serialization/deserialization-speed.
 
 Currently planned APIs are
 
