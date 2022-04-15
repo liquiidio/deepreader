@@ -1,0 +1,29 @@
+{
+  "profiles": {
+    "DeepReader": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "hotReloadEnabled": false,
+      "dotnetRunMessages": true
+    },
+    "Docker": {
+      "commandName": "Docker"
+    },
+    "WSL : Ubuntu-20.04": {
+      "commandName": "WSL",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "distributionName": "Ubuntu20.04LTS"
+    },
+	"WSL : Ubuntu-18.04": {
+      "commandName": "WSL",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "distributionName": "Ubuntu-18.04"
+    }
+  }
+}
