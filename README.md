@@ -1,5 +1,5 @@
 # DeepReader
-High-performance streaming- and history-solution for EOSIO-based chains leveraging deep-ming-loggging while reducing the overhead of hosting dfuse or firehose
+High-performance streaming- and history-solution for EOSIO-based chains leveraging deep-mind-loggging while reducing the overhead of hosting dfuse or firehose
 
 #### WORK IN PROGRESS
 The project contained is not fully working yet
